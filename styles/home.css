@@ -10,12 +10,15 @@ body {
 }
 
 .intro-block {
-    align: center;
+    text-align: center;
+    align-content: center;
     background-color: cornsilk;
     border: 1px solid black;
     border-radius: 8px;
     padding: 16px;
     margin: 32px;
+}
+.intro-block img {
 }
 
 .body-block {
@@ -32,7 +35,6 @@ body {
 
     border: 1px solid rgb(255, 255, 255, 0.6);
     border-radius: 8px;
-    padding: 16px;
     box-sizing: border-box;
 }
 
