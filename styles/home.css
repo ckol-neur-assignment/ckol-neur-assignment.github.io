@@ -1,0 +1,82 @@
+body {
+    background-image: url("../resources/cajal-drawing.png");
+    background-repeat: repeat;
+    background-size: auto;
+
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.intro-block {
+    align: center;
+    background-color: cornsilk;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 32px;
+}
+
+.body-block {
+    align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 32px;
+}
+
+.blur {
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgb(255, 255, 255, 0.6);
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.half-box {
+    width: 50vw;
+    max-width: 50vw;
+}
+
+.title-section h1 {
+    align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36pt;
+    padding: 16px;
+}
+.title-section h2 {
+    align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28pt;
+    padding: 16px;
+}
+
+.blur h3 {
+    align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24pt;
+    padding: 16px;
+}
+
+.blur p {
+    align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    padding: 16px;
+}
+
+.title-section p {
+    align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+    padding: 18px;
+}
+
