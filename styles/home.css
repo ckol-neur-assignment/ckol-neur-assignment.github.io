@@ -9,6 +9,20 @@ body {
     text-align: left;
 }
 
+.hbox-container {
+    display: flex; /* Enables Flexbox layout */
+    justify-content: space-around; /* Distributes space between items */
+    align-items: center; /* Vertically centers items */
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 15px;
+    margin: 5px;
+}
+
 .intro-block {
     text-align: center;
     align-content: center;
@@ -27,13 +41,15 @@ body {
     margin: 32px;
 }
 
-.prewrap {
-    white-space: pre-wrap;     /* preserve whitespace & wrap where needed */
-    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;   /* optional: use the same font as surrounding text */
-    line-height: 1.6;
-    margin: 0 0 1em 0;
-    overflow-wrap: anywhere;   /* help long words wrap on narrow screens */
+.pre-wrap pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
 }
+
+.line-break {
+    line-height: 1em;
+}
+
 
 .half-box {
     width: 50vw;
@@ -44,6 +60,7 @@ body {
     border: 1px solid rgb(255, 255, 255, 0.6);
     border-radius: 8px;
     box-sizing: border-box;
+
 }
 
 .full-box {
@@ -52,6 +69,7 @@ body {
     border: 1px solid rgb(255, 255, 255, 0.6);
     border-radius: 8px;
     box-sizing: border-box;
+
 }
 
 .title-section h1 {
@@ -91,6 +109,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14pt;
     padding: 16px;
+    text-indent: 2em;
 }
 
 .full-box h3 {
@@ -107,6 +126,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14pt;
     padding: 16px;
+    text-indent: 2em;
 }
 
 
