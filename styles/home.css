@@ -9,19 +9,21 @@ body {
     text-align: left;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .hbox-container {
     display: flex; /* Enables Flexbox layout */
-    justify-content: space-around; /* Distributes space between items */
-    align-items: center; /* Vertically centers items */
+    flex-grow: 10;
+    flex-direction: row;
+    justify-content: start; /* Distributes space between items */
+    align-items: start; /* Vertically centers items */
     border: 1px solid black;
     padding: 10px;
 }
 
-.item {
-    background-color: lightblue;
-    padding: 15px;
-    margin: 5px;
-}
 
 .intro-block {
     text-align: center;
@@ -31,9 +33,11 @@ body {
     border-radius: 8px;
     padding: 16px;
     margin: 32px;
+
+    max-width: 100%;
+    height: auto;
 }
-.intro-block img {
-}
+
 
 .body-block {
     align: center;
@@ -47,7 +51,7 @@ body {
 }
 
 .line-break {
-    line-height: 1em;
+    line-height: 0.8em;
 }
 
 
@@ -69,6 +73,7 @@ body {
     border: 1px solid rgb(255, 255, 255, 0.6);
     border-radius: 8px;
     box-sizing: border-box;
+    margin: 32px;
 
 }
 
