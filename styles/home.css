@@ -6,11 +6,33 @@ body {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
+    padding: 16px;
+}
+
+br {
+    display: block;
+    margin-top: 10px;
+}
+
+.blur {
+    background-color: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+}
+.img-wrapper p {
+    font-size: 12px;
+
+    max-width: 50%;
+    width: auto;
+}
+
+.indent p {
+    text-indent: 2em;
 }
 
 .intro-section {
-    padding: 16px;
     text-align: center;
+    margin: 16px;
 }
 .intro-section h1 {
     font-size: 32px;
@@ -23,24 +45,28 @@ body {
 
     background: white;
 
-    border: black solid 1px;
+    border: beige solid 1px;
     border-radius: 10px;
 }
 
 .body-section {
-    padding: 16px;
     text-align: left;
+    margin: 16px;
 }
 .body-section h1 {
     font-size: 28px;
 }
 .body-section p {
     font-size: 14px;
+    min-width: 50%;
 }
 .body-div {
+    margin: 16px;
     padding: 16px;
-    border: black solid 1px;
+    border: beige solid 1px;
     border-radius: 10px;
+}
+.body-div img {
 }
 
 .hbox {
@@ -49,4 +75,13 @@ body {
     flex-direction: row;
     justify-content: start; /* Distributes space between items */
     align-items: start; /* Vertically centers items */
+}
+.hbox p {
+    max-width: 50%;
+    width: 100%;
+}
+.hbox img {
+
+    max-width: 50%;
+    width: 100%;
 }
