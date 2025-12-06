@@ -23,6 +23,11 @@ Id styling
     font-size:48pt;
 }
 
+#monsanto-paragraph {
+    margin: 16pt;
+    max-width: 75%;
+}
+
 /*
     all modular (non-hierarchical things)
  */
@@ -70,17 +75,23 @@ Id styling
 
     justify-content: left;
 }
+.vbox img {
+    align-self: center;
+}
 
 .hbox {
     display: flex;
     flex-direction: row;
     align-items: stretch;
 }
-.hbox div {
+.hbox .item {
     max-width: 50%;
     width: auto;
     border-sizing: border-box;
 
+}
+.hbox .img-wrapper {
+    max-width: 50%;
 }
 .hbox p {
     max-width: 100%;
