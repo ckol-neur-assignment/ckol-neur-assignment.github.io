@@ -4,3 +4,10 @@ body {
     background-size: auto;
     background-position: center;
 }
+
+/*
+    all modular (non-hierarchical things)
+ */
+.indent p {
+    text-indent: 2em;
+}
