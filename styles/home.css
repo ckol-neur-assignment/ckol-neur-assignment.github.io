@@ -19,9 +19,6 @@ br {
     backdrop-filter: blur(10px);
     box-sizing: border-box;
 }
-.img-wrapper {
-    text-align: center;
-}
 .img-wrapper p {
     display: block;
     font-size: 12px;
@@ -69,12 +66,6 @@ br {
     border: beige solid 1px;
     border-radius: 10px;
 }
-.body-div img {
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .hbox {
     display: flex; /* Enables Flexbox layout */
@@ -87,6 +78,7 @@ br {
     max-width: 50%;
     width: 100%;
 }
+
 .hbox img {
     max-width: 50%;
     width: 100%;
