@@ -23,7 +23,25 @@ body h1 {
     border: 2px solid beige;
     border-radius: 8px;
     padding: calc(var(--base-padding) / 2);
+    margin: calc(var(--base-padding) / 2);
 }
+.title-div {
+    border: 2px solid beige;
+    border-radius: 8px;
+    padding: calc(var(--base-padding) / 2);
+    margin: calc(var(--base-padding) / 2);
+    text-align: center;
+}
+.title-div h1 {
+    font-size: 48pt;
+}
+.title-div p {
+    font-size: 22pt;
+}
+.title-div img {
+    width: 60%;
+}
+
 .indent p {
     text-indent: 2rem;
 }
