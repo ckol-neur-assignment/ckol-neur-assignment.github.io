@@ -25,6 +25,10 @@ body h1 {
     padding: calc(var(--base-padding) / 2);
     margin: calc(var(--base-padding) / 2);
 }
+.body-div h1, h2 {
+    text-align: center;
+}
+
 .title-div {
     border: 2px solid beige;
     border-radius: 8px;
@@ -64,10 +68,17 @@ body h1 {
     justify-content: space-between;
     align-items: stretch;
 }
+.img-wrapper {
+    text-align: center;
+}
 .img-wrapper img{
     max-width: 100%;
 }
 .img-wrapper p {
+    text-align: center;
+    font-size: 14pt;
+}
+.img-wrapper a {
     text-align: center;
     font-size: 14pt;
 }
@@ -102,14 +113,41 @@ body h1 {
     border-radius: 8px;
     padding: calc(var(--base-padding) / 2);
 }
+.img-wrapper3 {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: calc(var(--base-padding) / 2);
+    flex: 2;
+}
+.img-wrapper4 {
+    text-align: center;
+    padding: calc(var(--base-padding) / 2);
+}
+.img-wrapper4 img {
+    width: 40%;
+}
+.img-wrapper5 {
+    flex-grow: 1;
+}
 
 .text-wrapper1 {
     flex: 2;
+}
+.text-wrapper2 {
+    flex: 2;
+}
+.text-wrapper3 {
+    flex-grow: 3;
 }
 
 .item-wrap {
     flex: 1;
 }
 
+.quote {
+    text-align: center;
+    font-size: 20pt;
+}
 
 /* id */
