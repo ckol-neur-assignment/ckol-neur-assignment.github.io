@@ -28,6 +28,9 @@ body h1 {
 .body-div h1, h2 {
     text-align: center;
 }
+.body-div ol {
+    font-size: 16pt;
+}
 
 .title-div {
     border: 2px solid beige;
