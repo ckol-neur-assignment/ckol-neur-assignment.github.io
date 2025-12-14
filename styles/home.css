@@ -3,6 +3,11 @@
     --base-padding: 16px;
 }
 
+p:target {
+    background-color: #fffa8b; /* light yellow highlight */
+    border: 2px solid #f7e600;
+}
+
 /*  base tags  */
 body {
     background-image: url("/resources/cajal-drawing.png");
